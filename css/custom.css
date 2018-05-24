@@ -6,8 +6,6 @@ body{
     font-family: 'Oxygen', sans-serif;    
 }
 h2.intro1{
-     margin-top: 50px;
-     line-height: 1.5;
      color: #0a0a0a;
      font-family: 'Oxygen', sans-serif;
     
@@ -20,16 +18,14 @@ h2.intro1{
 
 .heading2{
     font-weight: 600;
-    margin-top: 50px;
-
-
 }
 
 #main{
-    height: 650px;
-    max-height: 650px;
-    padding: 10px;
-    margin: 20px;
+    height: auto;
+}
+
+.image{
+    margin-bottom: 250px;
 }
 
 #recentWorks{
