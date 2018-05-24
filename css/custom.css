@@ -1,0 +1,180 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Oxygen', sans-serif;    
+}
+h2.intro1{
+     margin-top: 50px;
+     line-height: 1.5;
+     color: #0a0a0a;
+     font-family: 'Oxygen', sans-serif;
+    
+}
+.intro2{
+    border-top: 2px solid #0a0a0a;
+    border-bottom: 2px solid #0a0a0a;
+    padding: 10px;
+}
+
+.heading2{
+    font-weight: 600;
+    margin-top: 50px;
+
+
+}
+
+#main{
+    height: 650px;
+    max-height: 650px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#recentWorks{
+    background: #1E88E5;
+    color: #fff;
+    padding: 20px;
+    height: auto;
+}
+
+.white{
+    color: #fff;
+}
+.image{
+    margin-top: 30px;
+}
+
+.img_design{
+    width: 100%;
+}
+
+h2{
+    color:#000;
+}
+
+
+
+.projects{
+    background-size: cover;
+    height: 300px;
+}
+
+
+.btn-myButton2 {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  border-width: 2px;
+  border-radius: 40px;
+}
+
+.btn-myButton {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  border-width: 2px;
+  border-radius: 40px;
+}
+
+.btn-navBar {
+  color: #1E88E5;
+  background-color: transparent;
+  border-color: #1E88E5;
+  border-width: 2px;
+  border-radius: 40px;
+}
+#skills{
+  height: auto;
+  background: #1E88E5;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#skills h1, h2, h3{
+    color: #fff;
+     font-family: 'Oxygen', sans-serif;  
+}
+
+.top{
+    margin-top: 20px;
+}
+
+.bgcolor{
+    background: #1E88E5;
+}
+
+.gray{
+    color:#293347;
+}
+
+.card{
+  max-height: 300px;
+  height: 300px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.footer{
+    background: #4582EC;
+}
+
+.layer {
+   background: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+
+}
+
+.layer:hover{
+     background: rgba(0,0,0,0);
+}
+
+.higlight{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 90px;
+    font-size: 20px;
+}
+
+.icon{
+  width: auto;
+  height: 60px;
+}
+
+.center-img img{
+  display: block;
+  margin: auto auto;
+}
+
+#otherWorks{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+#social{
+  height: auto;
+  background: #1E88E5;
+}
+
+.social{
+  margin-top: 20px;
+}
+.margin{
+  margin: 20px;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 50px;
+  padding: 7px 15px;
+  width: auto;
+}
