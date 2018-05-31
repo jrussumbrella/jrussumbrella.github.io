@@ -126,7 +126,8 @@ h2{
 
 
 .footer{
-    background: #4582EC;
+    height: 80px;
+    background: #fff;
 }
 
 .myHeading{
