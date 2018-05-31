@@ -2,12 +2,14 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
 body{
     font-family: 'Oxygen', sans-serif;    
 }
-h2.intro1{
+.intro1{
      color: #0a0a0a;
      font-family: 'Oxygen', sans-serif;
+     margin-bottom: 20px;
     
 }
 .intro2{
@@ -21,11 +23,13 @@ h2.intro1{
 }
 
 #main{
+    margin-top: 10px;
     height: auto;
+
 }
 
 .image{
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 #recentWorks{
@@ -34,7 +38,6 @@ h2.intro1{
     padding: 20px;
     height: auto;
 }
-
 .white{
     color: #fff;
 }
@@ -53,10 +56,9 @@ h2{
 
 
 .projects{
-    background-size: cover;
     height: 300px;
+    max-height: auto;
 }
-
 
 .btn-myButton2 {
   color: #fff;
@@ -67,11 +69,17 @@ h2{
 }
 
 .btn-myButton {
-  color: #fff;
+   color: #1E88E5;
   background-color: transparent;
-  border-color: #fff;
+  border-color: #1E88E5;
   border-width: 2px;
   border-radius: 40px;
+}
+.btn-myButton:hover {
+  background: #1E88E5;
+  color: #fff;
+  border-width: 2px;
+  border-color: #1E88E5;
 }
 
 .btn-navBar {
@@ -107,7 +115,7 @@ h2{
 .card{
   max-height: 300px;
   height: 300px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   margin-bottom: 30px;
 }
@@ -121,15 +129,27 @@ h2{
     background: #4582EC;
 }
 
-.layer {
-   background: rgba(0,0,0,.6);
-    width: 100%;
-    height: 100%;
-
+.myHeading{
+   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
+.layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.2);
+    width: 100%;
+    height: 100%;
+    
+}
+.layer h3{
+  margin: auto;
+}
+
+
 .layer:hover{
-     background: rgba(0,0,0,0);
+  background: rgba(0,0,0,0);
 }
 
 .higlight{
@@ -151,7 +171,7 @@ h2{
 }
 
 #otherWorks{
-  margin-top: 70px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 
@@ -173,4 +193,36 @@ h2{
   height: 50px;
   padding: 7px 15px;
   width: auto;
+}
+.image{
+  width: 200px;
+  max-width: 200px;
+  padding: 10px;
+}
+
+a.link{
+  text-decoration: none;
+}
+
+
+
+.padding{
+  margin: 10px;
+}
+
+.myColor{
+  color: #1E88E5;
+}
+.image-projects{
+  max-height: 200px;
+  height: 200px;
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #d5d5d5;
+}
+
+.cover2{
+  padding: 10px;
+  background: rgba(0,0,0,.6);
 }
