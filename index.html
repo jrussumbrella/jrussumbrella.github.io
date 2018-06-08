@@ -4,6 +4,7 @@
 	<title>James Russel Bautista | Front-end and Back-end Developer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
 	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
@@ -21,14 +22,14 @@
       </button>
       <a class="navbar-brand" href="#"><img class="img-responsive" src="images/j.png" ></a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-     
+    <div class="collapse navbar-collapse" id="myNavbar"> 
       <ul class="nav navbar-nav navbar-right">
-      	<li><a href="#main">Home</a></li>
-        <li><a href="#recentWorks">Work</a></li>
-        <li><a href="#skills">Skills</a></li>
-         <button class="btn btn-navBar navbar-btn">Contact</button>
+      	<li><a href="#">Home</a></li>
+        <li><a href="#" data-scroll-target=".recent-works">Work</a></li>
+        <li><a href="#">Skills</a></li>
+          <button class="btn btn-navBar navbar-btn">Contact</button>
       </ul>
+
     </div>
   </div>
 </nav>
@@ -36,171 +37,199 @@
 
 
 <div class="container-fluid">
-<!-- main -->
-	<div class="row" id="main" >
-		<div class="text-center">
-			<div class="col-xs-12 col-md-12">
-				<h2 class="intro1">Hi. I'm James Russel C. Bautista. <br> I design and develop  web applications.</h2>
-			 	<h1 class="heading2">Let's keep building amazing stuff.</span></h1>
-			 	<img src="images/my_avatar.png" class="image-responsive image top" >
-			</div>
-		</div>
+	<div class="intro text-center">	
+			<div class="row">
+				<div class="col-xs-12 col-md-12 col-lg-12">
+					<div class="intro-headings">
+						<h2>Hi. I'm James Russel C. Bautista. <br> I design and develop  web applications.</h2>
+					 	<h1>Let's keep building amazing stuff.</span></h1>
+						<img src="images/my_avatar.png" >
+					</div><!-- end intro-headings -->	
+				</div><!-- end intro -->			
+			</div>			
 	</div>
-<!-- end main -->	
-
-<!-- recent works -->
-<div class="row" id="recentWorks">
-	<div class="text-center" >	
-		<h2 class="white">My Recent Work</h2>
-		<h4 class="white">Here are the recent projects that I designed and develop.</h4>
-		<div class="container">
-			<div class="col-xs-12 col-md-4">
-				<div class="panel panel-default">
-					<div class="panel-body projects background" style="background:url('images/1.jpg'); background-repeat: round; background-size: contain; background-size: cover; ">
-						<div class="layer text-center"></div>
-					</div>
-					<div class="panel-footer footer">
-						<h4 class="myColor"> Flexible ELearning</h4>
-					</div> 
-				</div>
-			</div>
-			<div class="col-xs-12 col-md-4">
-				<a href="#" class="link">
-				<div class="panel panel-default">
-					<div class="panel-body projects cover" style="background:url('images/2.jpg');background-size: contain; background-size: cover;  background-repeat: round;  ">
-						<div class="layer"></div>
-					</div>
-					<div class="panel-footer footer">
-						<h4 class="myColor"> MHI 2K18 Web based Tabulation System</h4>
-					</div> 
-				</div>
-				</a>
-			</div>
-				<div class="col-xs-12 col-md-4 col-log-4">
+	
+	<div class="recent-works text-center">
+		<div class="row" >	
+			<h2> My Recent Work</h2>
+			<h4> Here are the recent projects that I designed and develop.</h4>
+			<div class="container my-projects" >
+				<div class="col-xs-12 col-md-4 col-lg-4">
 					<div class="panel panel-default">
-						<div class="panel-body projects cover" style="background:url('images/2.jpg');background-size: contain; background-size: cover;  background-repeat: round;  ">
-							<div class="layer text-center"></div>
+						<div class="panel-body projects bg" style="background-image:url('images/1.jpg');">
+							<div class="layer"></div>
 						</div>
 						<div class="panel-footer footer">
-							<h4 class="myColor"> MHI 2K18 Web based Tabulation System</h4>
-							<h5></h5>
+							<h4> Flexible ELearning</h4>
 						</div> 
 					</div>
 				</div>
-			</div>
-	</div>
-</div>
-<!-- end recent works -->	
-
-<!-- Other works -->	
-	<div class="row padding" id="otherWorks">
-			<div class="text-center">
-				<h2 class="gray"> Other Works</h2>
-				<h4 class="gray">Some of my works during college and on my intern days</h4>
-			</div>
-		<div class="container">	
-			<div class="col-xs-12 col-md-4">
-				<div class="panel panel-default">
-						<a href="http://doitpsualaminos.herokuapp.com" class="link" target="_blank">
-							<div class="panel-body card" style="background:url('images/attendance.png');background-size: contain; background-size: cover;  ">
-							
-								<div class="cover2 text-center">
-									<h4 class="white" > Online Attendance System</h4>
-								</div>
-							</div>
-						</a>			
-				</div>
-			</div>
-			<div class="col-xs-12 col-md-4">
-						<div class="panel panel-default">
-							<div class="panel-body card">
-								<div class="cover2 text-center">
-									<h4 class="white "> Hanap Trabaho</h4>
-								</div>
-							</div>
+				<div class="col-xs-12 col-md-4 col-lg-4">
+					<a href="#" class="link">
+					<div class="panel panel-default">
+						<div class="panel-body projects bg" style="background-image:url('images/2.jpg');">
+							<div class="layer"></div>
 						</div>
-			</div>
-			<div class="col-xs-12 col-md-4">
-						<div class="panel panel-default">
-						<a href="https://github.com/jrussumbrella/java-made-easy" class="link" target="_blank">
-							<div class="panel-body card" style="background:url('images/java-made.jpg');background-size: contain; background-size: cover; background-repeat: round;">
-								<div class="cover2 text-center">
-									<h4 class="white "> Java Made Easy</h4>
-								</div>
-							</div>
-							</a>						
-						</div>
-			</div>
-				<div class="text-center">
-					<a class="btn btn-myButton btn-lg top" href="https://github.com/jrussumbrella" target="_blank"><i class="fab fa-github"></i>  See more on Github</a>
+						<div class="panel-footer footer">
+							<h4> MHI 2K18 Web based Tabulation System</h4>
+						</div> 
+					</div>
+					</a>
 				</div>
-		</div>
+					<div class="col-xs-12 col-md-4 col-log-4">
+						<div class="panel panel-default">
+							<div class="panel-body projects bg" style="background-image:url('images/todo.png');">
+								<div class="layer"></div>
+							</div>
+							<div class="panel-footer footer">
+								<h4> Todo App</h4>
+							</div> 
+						</div>
+					</div>
+				</div>
+		</div><!-- end recent works -->
 	</div>
-<!-- end other works -->
 	
 
-	<div class="row" id="skills">
-		<div class="col-xs-12 col-md-12">
-			<div class="text-center">
-				<h2 class="white"> Skills</h2>
-				<h4 class="white">Things, I somehow good at</h4>
+<!-- Other works -->	
+	<div class="other-works text-center">
+		<div class="row">
+			<h2> Other Works</h2>
+				<h4>Some of my works during college and on my intern days</h4>
+			<div class="container my-projects">	
+				<div class="col-xs-12 col-md-4">
+					<div class="panel panel-default">
+							<a href="http://doitpsualaminos.herokuapp.com" class="link" target="_blank">
+								<div class="panel-body projects card" style="background:url('images/attendance.png');background-size: contain; background-size: cover;  ">
+									<div class="cover text-center">
+										<h4> Online Attendance System</h4>
+									</div>
+								</div>
+							</a>			
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4 col-lg-4">
+							<div class="panel panel-default">
+								<div class="panel-body projects card">
+									<div class="cover text-center">
+										<h4> Hanap Trabaho</h4>
+									</div>
+								</div>
+							</div>
+				</div>
+				<div class="col-xs-12 col-md-4 col-lg-4">
+							<div class="panel panel-default ">
+							<a href="https://github.com/jrussumbrella/java-made-easy" class="link" target="_blank">
+								<div class="panel-body projects card" style="background:url('images/java-made.jpg');background-size: contain; background-size: cover; background-repeat: round;">
+									<div class="cover text-center">
+										<h4> Java Made Easy</h4>
+									</div>
+								</div>
+								</a>						
+						</div>
+				</div>
+			</div>
+				<div class="text-center">
+						<a class="btn btn-myButton btn-lg top" href="https://github.com/jrussumbrella" target="_blank"><i class="fab fa-github"></i>  See more on Github</a>
+				</div>
+		</div><!-- end other works -->
+	</div>
+
+	
+	
+	<div class="skill text-center">
+		<div class="row">
+			<h2> Skills</h2>
+			<h4>Things, I somehow good at</h4>
+			<div class="container my-projects">
 				<div class="col-sm-2"></div>
 				<div class="col-sm-4">
 					<div class="panel panel-default">
-						<div class="panel-body card">
-							<div class="text-center center-img top">
-							<img src="images/graphic-designer.png" class="img-responsive icon">	
-							<h3 class="gray">Front-end</h3>
-							<h4 class="gray">HTML5</h4>
-							<h4 class="gray">CSS3</h4>
-							<h4 class="gray">JavaScript</h4>
-							<h4 class="gray">JQuery</h4>
-							<h4 class="gray">AJAX</h4>
+						<div class="panel-body skill-container">
+								<img src="images/graphic-designer.png" class="img-responsive">	
+								<h3>Front-end</h3>
+								<h4>HTML5</h4>
+								<h4>CSS3</h4>
+								<h4>JavaScript</h4>
+								<h4>JQuery</h4>
+								<h4>AJAX</h4>
+						</div>
+					</div>
+				</div>
+					<div class="col-sm-4">
+						<div class="panel panel-default">
+							<div class="skill-container">
+								<div class="panel-body">
+									<div class="text-center center-img top">
+									<img src="images/webdevelopment-icon.svg" class="img-responsive">	
+									<h3 class="gray">Back-end</h3>
+									<h4 class="gray">PHP</h4>
+									<h4 class="gray">JAVA</h4>
+									<h4 class="gray">MVC FRAMEWORK (LARAVEL)</h4>
+									</div>
+								</div>	
 							</div>
-						</div>
 					</div>
 				</div>
-				<div class="col-sm-4">
-					<div class="panel panel-default">
-						<div class="panel-body card">
-							<div class="text-center center-img top">
-							<img src="images/webdevelopment-icon.svg" class="img-responsive icon">	
-							<h3 class="gray">Back-end</h3>
-							<h4 class="gray">PHP</h4>
-							<h4 class="gray">JAVA</h4>
-							<h4 class="gray">MVC FRAMEWORK (LARAVEL)</h4>
-							
-						</div>
-					</div>
-				</div>
+				<div class="col-sm-2"></div>
 			</div>
-			<div class="col-sm-2"></div>
 		</div>
 	</div>
-</div>
-	
-	<div class="row">
-		<div class="col-xs-12 col-md-12">
-			<div class="center-img">
-			<img src="images/web-designer-devices-svg.svg" width="400px;" class="img-responsive">
+
+	<div class="contact">
+		<div class="row">
+			<h2 class="text-center"> Send a message</h2>
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<form method="POST" id="contactForm" action="https://formspree.io/jrussclay@gmail.com">
+				<div class="form-group">
+				    <label for="email">Name:</label>
+				    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+				  </div>
+				  <div class="form-group">
+				    <label for="email">Email address:</label>
+				    <input type="email" name="_replyTo" class="form-control" placeholder="Your Email" id="email" required>
+				  </div>
+				  <div class="form-group">
+				    <label for="pwd">Message:</label>
+				    <textarea rows="5" type="text" name="message" class="form-control" placeholder="Your Message"></textarea required>
+				  </div>
+				  <input type="hidden" name="_next" value="thanks.html" />
+				  <button type="submit" class="btn btn-primary btn-block ">Send</button>
+				</form>
+			</div>
 		</div>
+	</div>
+	
+	<div class="dev-img center-img">
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+				<img src="images/web-designer-devices-svg.svg" class="img-responsive">
+			</div>
 		</div>
 	</div>	
-			
-	<div class="row" id="social">
-		<div class="col-xs-12 col-md-12">
-			<div class="text-center">
-				<h2 class="white top">"Everyday living is learning."</h2>
-				<h3 class="white top">Contact me</h3>
-				<div class="social">
-				<button class="btn btn-myButton2 margin"><i class="fab fa-facebook-f fa-lg"></i> Facebook</button>	
-				<button class="btn btn-myButton2"><i class="far fa-envelope fa-lg"></i> Gmail</button>
-				</div>	
+	<div class="my-footer">
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+				<div class="text-center social">
+					<h2>"Everyday living is learning."</h2>
+						<div class="social-icon">
+							<a href="https://www.facebook.com/jrussel.bautista" target="_blank" class="btn btn-social-icon btn-facebook"><i class="fab fa-facebook-f fa-lg"></i></a>	
+							<a href="https://jrussclay@gmail.com" class="btn btn-social-icon btn-google" target="_blank"><i class="fab fa-google"></i></a>
+							<a href="https://github.com/jrussumbrella" target="_blank" class="btn btn-social-icon btn-github"><i class="fab fa-github fa-lg"></i></a>
+						</div>
+					<h4>All rights reserved 2018 - James Russel C. Bautista</h4>	
+				</div>
 			</div>
-		</div>
-	</div>
-</div>
+		</div>		
+	</div>		
+
+</div> <!-- end container -->
+
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/app.js"></script>
+
 </body>
 </html>
