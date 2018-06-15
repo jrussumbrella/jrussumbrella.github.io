@@ -12,7 +12,8 @@ html{
 body{
   font-size: 0.875em;
   font-family: 'Oxygen', sans-serif;
-  background: #fff;    
+  background: #fff;
+  padding-top: 70px;    
 }
 h1, h2, h3, h4, h5{
   font-weight: 400;
@@ -25,6 +26,12 @@ h2{
 .intro{
   padding: 30px;
   height: auto;
+}
+
+.intro:before {
+    height: 30px;
+    content: "";
+    display:block;
 }
 
 .intro-headings{
@@ -58,6 +65,11 @@ h2{
   padding: 20px;
   height: auto;
 }
+.recent-works:before {
+    height: 30px;
+    content: "";
+    display:block;
+}
 
 .recent-works h2{
   color: #fff;
@@ -65,21 +77,25 @@ h2{
 .recent-works h4{
   color: #fff;
 }
-.recent-works a{
-  text-decoration: none;
-}
+
+
+
 .projects{ 
   height: 200px;
   max-height: 200px;
 }
 .bg{
-  background-repeat: round; 
+   
   background-size: contain; 
   background-size: cover;
 }
 
 .my-projects{
   margin-bottom: 20px;
+}
+
+.my-projects a{
+  text-decoration: none;
 }
 
 .footer{
@@ -97,11 +113,32 @@ h2{
     height: 100%;
     
 }
-.layer:hover{
-  background: rgba(0,0,0,.6);
+.layer:hover {
+  background: rgba(0,0,0,.8);
   width: 100%;
   height: 100%; 
 }
+
+.layer:hover .text{
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text p{
+   color: #fff;
+   font-size: 18px;
+   font-weight: 300px;
+}
+
 
 
 /* end recent works */
@@ -125,7 +162,7 @@ h2{
 }
 .cover{
    padding: 10px;
-  background: rgba(0,0,0,.6);  
+  background: rgba(0,0,0,.7);  
 }
 
 .cover h4{
@@ -161,11 +198,19 @@ h2{
   margin-top: 50px;
 }
 
+.skill:before {
+    height: 30px;
+    content: "";
+    display:block;
+}
+
 .skill-container{
   height: 260px;
   max-height: 260px;
   padding-bottom: 10px;
   padding-top: 10px;  
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .skill-container h4{
@@ -199,7 +244,11 @@ h2{
   margin-top: 50px;
   padding: 20px;
 }
-
+.contact:before {
+    height: 30px;
+    content: "";
+    display:block;
+}
 
 .my-footer {
   background: #1E88E5;
@@ -277,4 +326,38 @@ h2{
   display: block;
   margin: auto auto;
   margin-bottom: 20px;
+}
+/* end thanks page */
+
+/*my projects */
+.my-project{
+  padding: 20px;
+  background: #1E88E5;
+  height: auto;
+}
+
+.my-project h3{
+  color: #fff;
+}
+
+.my-project h4{
+  color: #fff;
+}
+
+.my-project ul{
+  list-style: none;
+}
+
+.my-project li{
+  color: #fff;
+  font-size: 16px;
+}
+
+.my-project a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.my-project a:hover{
+  text-decoration: underline;
 }

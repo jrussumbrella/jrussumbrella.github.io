@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>James Russel Bautista | Front-end and Back-end Developer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap-social.css">
+	<link rel="stylesheet" type="text/css" href="../css/custom.css">
+	<link rel="stylesheet" type="text/css" href="../css/fontawesome-all.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand" href="../index.html"><img class="img-responsive" src="../images/j.png" ></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar"> 
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../index.html" >Home</a></li>
+					<a href="#contact" data-class-to="#contact" class="btn btn-navBar navbar-btn anchor-scroll">Contact</a>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+	<!-- end navbar-->
+
+
+	<div class="container-fluid">
+		<div  class="my-project">
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h3>ELearning Management System Demo</h3>
+					<h4><a href="https://github.com/jrussumbrella/portal-eLearning-system">Fork this project on <i class="fab fa-github"></i> Github</a></h4>
+					<a href="../images/elearning_portal.jpg">	
+						<img src="../images/elearning_portal.jpg" class="img-responsive">
+					</a>	
+				</div>
+				<div class="col-md-5 col-md-offset-1">
+					<h3>Description:</h3>
+					<h4>This projects is a portal e-learning system in which all the information or the learning information are stored in the database. Meaning the topics that are posted or displayed on the website are added without editing the source code of the system. </h4>
+					<h3>Features:</h3>
+					<ul>
+						<li>Add, Edit and Remove Course or Topic board </li>
+						<li>User Profile</li>
+						<li>Upload Photos</li>
+						<li>Change user's password</li>
+						<li>Add to Favorites</li>
+						<li>Download pdf files</li>
+						<li></li>
+					</ul>
+
+				</div>	
+			</div>			
+		</div>
+		
+		
+		<div id="contact" class="contact">
+			<div class="row">
+				<h2 class="text-center"> Send a message</h2>
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<form method="POST" id="contactForm" action="https://formspree.io/jrussclay@gmail.com">
+						<div class="form-group">
+							<label for="email">Name:</label>
+							<input type="text" name="name" class="form-control" placeholder="Your Name" required>
+						</div>
+						<div class="form-group">
+							<label for="email">Email address:</label>
+							<input type="email" name="_replyTo" class="form-control" placeholder="Your Email" id="email" required>
+						</div>
+						<div class="form-group">
+							<label for="pwd">Message:</label>
+							<textarea rows="5" type="text" name="message" class="form-control" placeholder="Your Message"></textarea required>
+							</div>
+							<input type="hidden" name="_next" value="thanks.html" />
+							<button type="submit" class="btn btn-primary btn-block ">Send</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<div class="dev-img center-img">
+				<div class="row">
+					<div class="col-xs-12 col-md-12">
+						<img src="../images/web-designer-devices-svg.svg" class="img-responsive">
+					</div>
+				</div>
+			</div>	
+			<div class="my-footer">
+				<div class="row">
+					<div class="col-xs-12 col-md-12">
+						<div class="text-center social">
+							<h2>"Everyday living is learning."</h2>
+							<div class="social-icon">
+								<a href="https://www.facebook.com/jrussel.bautista" target="_blank" class="btn btn-social-icon btn-facebook"><i class="fab fa-facebook-f fa-lg"></i></a>	
+								<a href="https://jrussclay@gmail.com" class="btn btn-social-icon btn-google" target="_blank"><i class="fab fa-google"></i></a>
+								<a href="https://github.com/jrussumbrella" target="_blank" class="btn btn-social-icon btn-github"><i class="fab fa-github fa-lg"></i></a>
+							</div>
+							<h4>All rights reserved 2018 - James Russel C. Bautista</h4>	
+						</div>
+					</div>
+				</div>		
+			</div>		
+
+		</div> <!-- end container -->
+
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/jquery.validate.js"></script>
+		<script src="../js/jquery.anchorScroll.js"></script>
+		<script src="../js/app.js"></script>
+
+	</body>
+	</html>
